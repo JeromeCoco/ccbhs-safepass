@@ -26,6 +26,8 @@ function onScanSuccess(decodedText, decodedResult) {
             alert(err.Message);
         }
     });
+
+    alert('hello');
 }
 
 function onScanError(errorMessage) {
